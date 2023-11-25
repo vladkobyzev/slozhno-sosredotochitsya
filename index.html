@@ -15,17 +15,13 @@
 
     <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/favicon.svg"/>
   </head>
   <body class="page">
-    <header class="header">
+    <header class="header deccorated-zone">
       <div class="header__rec">
-        <article class="header__rec-text">REC</article>
-        <div class="decorative-square decorative-square-top">
-          <img
-            src="./images/rec-icon.png"
-            alt="decorative-square"
-            class="decorative-square-rec-img"
-          />
+        <span class="header__rec-text">REC</span>
+        <div class="circle"></div>
         </div>
       </div>
       <nav class="header__theme-menu">
@@ -55,12 +51,11 @@
         </ul>
       </nav>
       <h1 class="header__title">no focus</h1>
-      <article class="header__description">
+      <p class="header__description">
         Что делать, когда не можешь делать ничего <br>
         Или почему нам так сложно
         сконцентрироваться, особенно когда очень надо
-      </article>
-      <div class="decorative-square decorative-square-bottom"></div>
+      </p>
     </header>
     <main>
       <section class="lots content-section">
@@ -73,7 +68,7 @@
               важные. Где же легендарная многозадачность, когда она так нужна
               вам (и всем нанимающим менеджерам этого мира)? А дело в том, что
               её просто не существует. Исследователи 
-              <a href="#0" class="text-link">выяснили</a>, что мозгу тяжело
+              <a href="#0" class="text-link" target="_blank">выяснили</a>, что мозгу тяжело
               концентрироваться даже на двух делах одновременно. А когда в поле
               внимания попадает несколько важных задач, организм паникует и
               выделяет кортизол и адреналин — «гормоны стресса». Из-за этого мы
@@ -143,7 +138,7 @@
           <h3 class="card__title">5 простых (на самом деле не очень) советов</h3>
           <ul class="lots__card-list">
             <li class="card">
-              <h3 class="card__title card__title-slim">Представьте небо и облака</h3>
+              <h4 class="card__title card__title-slim">Представьте небо и облака</h4>
               <p class="card__text">
                 Или листья в ручье. Тут дело в лёгкой медитации, которая помогает
                 успокоиться. Ведь часто именно тревожные мысли о сложных задачах
@@ -156,7 +151,7 @@
               </p>
             </li>
             <li class="card">
-              <h3 class="card__title card__title-slim">Включите музыку</h3>
+              <h4 class="card__title card__title-slim">Включите музыку</h4>
               <p class="card__text">
                 Но не любую, и не любимую. Любимая может быть связана с сильными
                 положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -165,7 +160,7 @@
               </p>
             </li>
             <li class="card">
-              <h3 class="card__title card__title-slim">Прогуляйтесь</h3>
+              <h4 class="card__title card__title-slim">Прогуляйтесь</h4>
               <p class="card__text">
                 Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
                 показал, что созерцание природы повышает концентрацию, в то время
@@ -177,7 +172,7 @@
               </p>
             </li>
             <li class="card">
-              <h3 class="card__title card__title-slim">Хорошо ешьте</h3>
+              <h4 class="card__title card__title-slim">Хорошо ешьте</h4>
               <p class="card__text">
                 Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
                 которые препятствуют резким скачкам сахара в крови. Например, с
@@ -186,7 +181,7 @@
               </p>
             </li>
             <li class="card">
-              <h3 class="card__title card__title-slim">Читайте</h3>
+              <h4 class="card__title card__title-slim">Читайте</h4>
               <p class="card__text">
                 Настоящие бумажные книги. Это правда помогает с концентрацией:
                 чтобы прочитать пост в соцсети, достаточно нескольких минут или
@@ -199,20 +194,16 @@
         
       </section>
       <section class="lots-images">
-        <h3 class="card__title">А можно в картинках?</h3>
-        <img class ="lots-images__item lots-images__item-sunset" src="/images/sunset.png" alt="Минималистический пейзаж, закат в фиолетовых тонах" loading="lazy" />
-        <img class ="lots-images__item lots-images__item-ice-cream" src="/images/ice-cream.png" alt="Мультяшная тарелка с шариками мороженного в виде котиков" loading="lazy" />
-        <img class ="lots-images__item lots-images__item-tape" src="/images/tape.png" alt="Магнитофонная касета с декаративными элементами из инструментов операционной системы" loading="lazy" />
-        <img class ="lots-images__item lots-images__item-books" src="/images/books.png" alt="Мультяшная стопка книг" loading="lazy" />
-        <img class ="lots-images__item lots-images__item-street" src="/images/street.png" alt="Нарисованная улица в японском стиле" loading="lazy" />
+        <h2 class="card__title">А можно в картинках?</h2>
+        <img class ="lots-images__item lots-images__item-sunset" src="./images/sunset.png" alt="Минималистический пейзаж, закат в фиолетовых тонах" loading="lazy" />
+        <img class ="lots-images__item lots-images__item-ice-cream" src="./images/ice-cream.png" alt="Мультяшная тарелка с шариками мороженного в виде котиков" loading="lazy" />
+        <img class ="lots-images__item lots-images__item-tape" src="./images/tape.png" alt="Магнитофонная касета с декаративными элементами из инструментов операционной системы" loading="lazy" />
+        <img class ="lots-images__item lots-images__item-books" src="./images/books.png" alt="Мультяшная стопка книг" loading="lazy" />
+        <img class ="lots-images__item lots-images__item-street" src="./images/street.png" alt="Нарисованная улица в японском стиле" loading="lazy" />
       </section>
     </main>
-    <footer class="footer">
-      <div class="header__rec">
-        <div class="decorative-square decorative-square-top"></div>
-      </div>
-      <h1 class="header__title heading__title-footer">focus</h1>
-      <div class="decorative-square decorative-square-bottom decorative-square-bottom-footer"></div>
+    <footer class="footer deccorated-zone">
+      <h2 class="header__title heading__title-footer">focus</h2>
     </footer>
     <script src="./scripts/script.js"></script>
   </body>

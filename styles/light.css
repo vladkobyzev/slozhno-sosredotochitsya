@@ -23,3 +23,30 @@
   --text-decoration-color: #353430;
   --card-content-text-color: #353430;
 }
+
+@media (prefers-color-scheme: light) {
+  .page {
+    --accent-color: #ff8dcb;
+    --main-bg-color: #fff1f7;
+    --nav-btn-text-color: #353430;
+    --border-color: #353430;
+    --text-color: #353430;
+    --background-image: url("../images/cover-image-light.png");
+    --shadow-text-color: #ff8dcb;
+    --main-text-title-color: #ffc2e6;
+    --title-text-color: #353430;
+    --card-title-color: #353430;
+    --text-link-color: #ff8dcb;
+    --text-decoration-color: #353430;
+  }
+
+ 
+
+  .page.theme_auto .header__rec-text {
+    display: none;
+  }
+  
+  .page.theme_auto .circle {
+    display: none;
+  }
+}
