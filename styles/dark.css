@@ -15,6 +15,7 @@
   --card-title-color: #000028;
   --nav-btn-text-color: #ff0070;
   --border-color: #ff0070;
+  --border-color-hover: rgba(255, 0, 112, 0.40);
   --background-image: url("../images/cover-image-dark.png");
   --card-content-text-color: #F1B2CE;
   --shadow-text-color: #ff0070;
@@ -31,11 +32,16 @@
     --card-title-color: #000028;
     --nav-btn-text-color: #ff0070;
     --border-color: #ff0070;
+    --border-color-hover: rgba(255, 0, 112, 0.40);
     --background-image: url("../images/cover-image-dark.png");
     --card-content-text-color: #f1b2ce;
     --shadow-text-color: #ff0070;
     --main-text-title-color: #db00ff;
     --text-link-color: #ff0070;
     --text-decoration-color: #f1b2ce;
+  }
+
+  .header__rec-text {
+    display: flex;
   }
 }
